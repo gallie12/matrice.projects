@@ -1,76 +1,162 @@
+
 html {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
 }
 
 body{
     font-family: 'Radio Canada', sans-serif;
     background-color: black;
     color: white ;
-    width: 358px;
-    height: 713px;
-   margin: 16px;
+    margin: 0px;
+    padding:0px;
+    height: 100%;
 }
-h5{
-  
-    font-size:40px;
-    margin-left: 40px;
-    font-family: 'Radio Canada'
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+figure{
+    height: 0px;
+}
+
+
+h5 {
+    font-size: 40px;
+    font-family: 'Radio Canada';
+    margin-bottom: 40px;
+    margin-right: 55px;
    
     
 }
-#first_p{
-    
-    margin:0px 0px 20px 60px;
+
+#first_p {
+    margin: 0px 0px 20px 102px;
     font-size: 25px;
-    font-family: 'Radio Canada'
+    font-family: 'Radio Canada';
+    width: 396px;
 }
 p{
    
    font-size: 20px;
-   margin-left: 60px;
    width: 350px;
    font-family: sans-serif;
    width: 340px;
+   margin: 0px 0px 0px 60px;
    
 }
 
-img {
-    width: 10%;
-}
 
-#footer_img{
-    
+
+footer{
+    width: 100%;
+    height: 25%;
+    background-color: blueviolet;
+}
+#img_footer{
+    width: 100%;
+    height: 100%;
+    height: 69%;
+
 }
 
 section{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-flow:column;
     align-items: center;
+    height: 50%;
+    height: 70%;
 
 }
-button{
-    display:flex;
+
+
+
+button {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 300px;
-    height: 40px;
+    height: 42px;
     border-radius: 20px;
-    margin: 20px 0px 20px 0px;
-   
+    margin: 10px 0px 10px 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Radio Canada';
+
 }
 
 #conjonction{
     text-align: center;
     width: 308px;
     height: 20px;
-    margin:8px;
+    margin:0px;
     font-family: sans-serif;
+    font-size: 14px;
 }
 #logo_twitter{
+    
     width: 45px;
     height: 45px;
     padding-bottom: 12px;
+    margin-right: 220px;
+
 }
 
+#cd_user{
+    font-size: 10px;
+}
+#user_compte{
+    font-size: 17px;
+    font-family: 'Radio Canada';
+    margin-top: 60px;
+}
+.button_logo{
+    width: 7%;
+    margin: 6px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 500px) {
+    .top_site_desk{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 100%;
+    }
+    #photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(img/twitter_footer.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+ }
+
+
+@media (min-width: 390px) and (max-width:500px){
+    #first_p{
+        width: 395px;
+    }
+    .top_site_desk{
+        display: block;
+    }
+    #photo{
+        width: 100%;
+        height: 50%; 
+    }
+   
+ }
+
+
+ 
