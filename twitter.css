@@ -134,7 +134,7 @@ a{
         display: flex;
         align-items: center;
         justify-content: center;
-        background: url(img/twitter_footer.jpg);
+        background: url(./img/twitter_footer.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
